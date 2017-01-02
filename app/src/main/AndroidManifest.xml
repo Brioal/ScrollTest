@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.brioal.scrolltest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Method1Activity"
+            android:label="layout方法">
+        </activity>
+        <activity
+            android:name=".activity.Method2Activity"
+            android:label="offsetTopAndBottom">
+        </activity>
+        <activity
+            android:name=".activity.Method3Activity"
+            android:label="LayoutParams方法">
+        </activity>
+        <activity
+            android:name=".activity.Method4Activity"
+            android:label="scrollTo , scrollBy">
+        </activity>
+        <activity
+            android:name=".activity.Method5Activity"
+            android:label="Scroller">
+        </activity>
+        <activity
+            android:name=".activity.Method6Activity"
+            android:label="属性动画">
+        </activity>
+        <activity android:name=".activity.Method7Activity"
+            android:label="ViewDragHelper方法">
+        </activity>
+    </application>
+
+</manifest>
